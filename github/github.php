@@ -37,7 +37,7 @@ class github extends plxPlugin {
             var username = '<?php echo $this->getParam("username");?>';
         </script>
 
-        <script src="<?php echo PLX_PLUGINS ?>github/js/github-feed.js"></script>
+        <script src="<?php echo PLX_PLUGINS ?>github/js/github-feed.min.js"></script>
 
         <?php
     }
